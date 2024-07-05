@@ -1,0 +1,38 @@
+.course-card {
+  background-image: linear-gradient(to right bottom, #000, #8f00ff);
+  border-radius: 10px;
+  width: 340px;
+  height: 420px;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card-text-box {
+  padding: 8px 16px;
+}
+
+.mentor {
+  width: 100%;
+}
+
+.course-card-img-box,
+.course-card {
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.course-card-img-box {
+  height: 250px;
+}
+
+.about-course {
+  color: #fff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.course-card-text-box {
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.popular-courses-section {
+  padding: 48px;
+}
+
+.popular-courses-heading {
+  text-align: center;
+  color: #8f00ff;
+  padding: 16px;
+  font-size: 36px;
+}
+
+.popular-courses-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-content: center;
+  justify-items: center;
+  margin-top: 36px;
+}

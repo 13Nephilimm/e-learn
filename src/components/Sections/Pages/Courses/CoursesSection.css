@@ -1,0 +1,87 @@
+.courses-section {
+  margin-top: 96px;
+}
+
+.courses-container {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 36px;
+  place-items: center;
+}
+
+.course-link {
+  z-index: 90;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 48px;
+}
+
+.filters-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #8f00ff;
+  margin-bottom: 24px;
+  z-index: 90;
+}
+
+.courses-search-box,
+.courses-input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8f00ff;
+  width: 50%;
+  z-index: 90;
+}
+
+.search,
+.input {
+  width: 95%;
+  padding: 16px;
+  background-color: #8f00ff;
+  border: none;
+  font-size: 24px;
+  color: #fffbf5;
+  margin-left: 8px;
+  transition: all 0.3s;
+}
+
+.search::placeholder,
+.input::placeholder {
+  color: #fffbf5;
+}
+
+.search-icon,
+.input-icon {
+  font-size: 24px;
+  color: #fffbf5;
+  margin-left: 8px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:hover {
+  transform: scale(0.95);
+}
+
+.search {
+  border: none !important;
+}
+
+.filters {
+  margin-top: 36px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,101 @@
+.what-we-offer-section {
+  padding: 96px;
+}
+
+.what-we-offer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  justify-items: center;
+  gap: 36px;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.wwo-heading {
+  color: #8f00ff;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  padding: 96px;
+}
+
+.wwo-card {
+  position: relative;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.wwo-card-content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.wwo-card::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+}
+
+.wwo-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+  filter: blur(30px);
+}
+
+.wwo-card:hover:before,
+.wwo-card:hover:after {
+  transform: skewX(0deg) scaleX(1.3);
+}
+
+.wwo-card:before,
+.wwo-card:after {
+  background: linear-gradient(315deg, #8f00ff, #b14dff);
+}
+
+.wwo-card .wwo-card-content {
+  position: relative;
+  width: 230px;
+  height: 320px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+  transform: 0.5s;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wwo-card .wwo-card-content h2 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}

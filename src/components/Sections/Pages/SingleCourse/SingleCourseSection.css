@@ -1,0 +1,79 @@
+.single-product-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.single-course-image {
+  margin-top: 96px;
+  z-index: 90;
+  width: 100%;
+  height: 450px;
+}
+
+.single-product-title {
+  z-index: 90;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 48px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #8f00ff;
+}
+
+.single-product-price {
+  text-align: center;
+  color: #fff;
+}
+
+.single-product-description {
+  z-index: 90;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  padding: 36px 0;
+}
+
+.single-product-details-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.single-course-btn {
+  margin-top: 48px;
+  margin-bottom: 96px;
+}
+
+@media screen and (max-width: 1280px) {
+  .single-product-description {
+    padding: 36px 16px;
+  }
+
+  .single-product-details-box {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .single-product-title {
+    font-size: 24px;
+  }
+
+  .single-product-btn {
+    font-size: 16px !important;
+  }
+
+  .single-product-details-box {
+    font-size: 18px;
+  }
+}

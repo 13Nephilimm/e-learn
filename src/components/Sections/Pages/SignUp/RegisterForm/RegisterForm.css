@@ -1,0 +1,47 @@
+.login-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  margin-top: 96px;
+}
+
+.login-container {
+  max-width: 600px;
+  border: solid 3px #8f00ff;
+  box-shadow: 0px 0px 19px 8px rgb(143, 0, 255, 0.7);
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+}
+
+.login-heading {
+  font-size: 36px;
+  text-align: center;
+  color: #8f00ff;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  font-weight: 500;
+}
+
+.account-text {
+  font-size: 24px;
+  color: #8f00ff;
+}
+
+.reg-log-btn {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+option,
+select {
+  border: none;
+  background-color: #8f00ff;
+  padding: 8px;
+  font-size: 16px;
+}
