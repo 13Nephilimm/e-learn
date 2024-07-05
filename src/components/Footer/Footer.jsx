@@ -36,11 +36,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-upper-container">
           <div className="privacy-box">
-            <a
-              href="./უსაფრთხოების შესახებ.pdf"
-              className="privacy-heading"
-              download
-            >
+            <a href="./privacy.pdf" className="privacy-heading" download>
               კონფიდენციალურობის პოლიტიკა
             </a>
           </div>
